@@ -1,10 +1,9 @@
-package de.phototrip.planner;
+package de.phototrip.planner.table;
 
 
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
 @Table
 public class Trip {
 
@@ -28,9 +27,10 @@ public class Trip {
         this.endDate = endDate;
     }
 
-    /**********************
+    /*********************
      * GETTER AND SETTERS
-     *********************/
+     ********************/
+
 
     public int getId() {
         return id;

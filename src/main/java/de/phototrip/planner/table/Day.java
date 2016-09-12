@@ -1,12 +1,9 @@
-package de.phototrip.planner;
+package de.phototrip.planner.table;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Date;
 
-@Entity
+@Table
 public class Day {
 
     @Id
@@ -21,9 +18,11 @@ public class Day {
         this.date = date;
     }
 
+
     /**********************
      * GETTER AND SETTERS
      *********************/
+
 
     public int getId() {
         return id;
