@@ -1,4 +1,4 @@
-package de.phototrip.planner;
+package de.phototrip.planner.application;
 
 import org.junit.Ignore;
 import org.junit.Test;
@@ -8,11 +8,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PhototripPlannerApplicationTests {
+public class PhototripApplicationTests {
 
-	@Test
-	@Ignore
-	public void contextLoads() {
-	}
+    @Test
+    @Ignore
+    public void contextLoads() {
+    }
 
 }
