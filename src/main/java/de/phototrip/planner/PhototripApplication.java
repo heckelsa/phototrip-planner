@@ -1,14 +1,14 @@
-package de.phototrip.planner.application;
+package de.phototrip.planner;
 
+import de.phototrip.planner.controller.PhotoTripController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.sql.Timestamp;
-import java.util.Date;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackageClasses = PhotoTripController.class)
 public class PhototripApplication {
 
     private static final Logger log = LoggerFactory.getLogger(PhototripApplication.class);
